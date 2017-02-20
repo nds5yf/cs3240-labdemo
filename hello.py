@@ -1,6 +1,4 @@
-def greetings(msg):
-	print(msg)
-
+import helper as hp
 
 if __name__ == '__main__':
-	greetings(Hello world!)
+	hp.greetings("Hello world!")
